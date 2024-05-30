@@ -720,8 +720,6 @@ header .navbar .language img {
 
 }
 
-.card-nested {}
-
 .card-nested p {
     margin: 5px;
 }
@@ -1239,4 +1237,13 @@ header .navbar .language img {
     width: 200px;
     height: 100%;
     padding: 100px;
+}
+
+@media(max-width:600px){
+    .hide{
+        display: none;
+    }
+    .nav{
+        display: none;
+    }
 }
