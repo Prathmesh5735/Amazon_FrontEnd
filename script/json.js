@@ -1,7 +1,7 @@
 let firstproduct = document.getElementsByClassName("main-sec")
 
 function productdata() {
-    fetch("http://localhost:3000/cardproduct")
+    fetch("https://amazon-backend-87c1.onrender.com/cardproduct")
         .then((res) => res.json())
         .then((data) => {
             productlist(data)
@@ -79,7 +79,7 @@ function slidersingle(image){
 let secondproduct = document.querySelector(".prod-append")
 
 function productdata2() {
-    fetch("http://localhost:3000/cardproduct2")
+    fetch("https://amazon-backend-87c1.onrender.com/cardproduct2")
         .then((res) => res.json())
         .then((data) => {
             productlist2(data)

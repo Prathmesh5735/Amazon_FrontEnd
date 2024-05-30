@@ -450,7 +450,7 @@
 <script>
     let filterdata=[]
     document.addEventListener('DOMContentLoaded', () => {
-        fetch('http://localhost:3000/productdata')
+        fetch('https://amazon-backend-87c1.onrender.com/productdata')
             .then(response => response.json())
             .then(data => {
                 filterdata=data;
