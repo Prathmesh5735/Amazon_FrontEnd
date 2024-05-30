@@ -1239,11 +1239,14 @@ header .navbar .language img {
     padding: 100px;
 }
 
-@media(max-width:600px){
+@media (max-width: 575.98px) {
     .hide{
         display: none;
     }
-    .nav{
+    .nav {
+        display: none !important;
+    }
+    .sidebar-container-navigation{
         display: none;
     }
 }
